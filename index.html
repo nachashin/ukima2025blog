@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- フォントインポート -->
+    <link href="https://fonts.googleapis.com/css?family=Zen+Maru+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Klee+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hina+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yuji+Syuku" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaisei+Opti" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reggae+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaisei+Decol" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dela+Gothic+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yusei+Magic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aoboshi+One" rel="stylesheet">
+    <title>SAMPLE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <style>
+    * { font-family: "Zen Maru Gothic"; }
+    body { padding-top: 70px; padding-bottom: 30px; }
+    .jumbotron h1 { font-size: 300%; }
+    .theme-dropdown .dropdown-menu { position: static; display: block; margin-bottom: 20px; }
+    .theme-showcase > p > .btn { margin: 5px 0; }
+    .theme-showcase .navbar .container { width: auto; }
+    .literature {display: none;}
+    #lit01 {display: block;}
+    </style>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SAMPLE</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span id="font_name"></span> <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="javascript:void(0);" id="link01" class="selmenu">吾輩は猫である</a></li>
+                <li><a href="javascript:void(0);" id="link02" class="selmenu">こころ</a></li>
+                <li><a href="javascript:void(0);" id="link03" class="selmenu">高瀬舟</a></li>
+                <li><a href="javascript:void(0);" id="link04" class="selmenu">羅生門</a></li>
+                <li class="dropdown-header">---------</li>
+                <li><a href="javascript:void(0);" id="font01" class="selmenu" style="font-family:'Zen Maru Gothic'">全丸ゴシック</a></li>
+                <li><a href="javascript:void(0);" id="font12" class="selmenu" style="font-family:'Kaisei Opti'">Kaisei Opti</a></li>
+                <li><a href="javascript:void(0);" id="font13" class="selmenu" style="font-family:'Reggae One'">Reggae One</a></li>
+                <li><a href="javascript:void(0);" id="font09" class="selmenu" style="font-family:'Klee One'">Klee One</a></li>
+                <li><a href="javascript:void(0);" id="font02" class="selmenu" style="font-family:'Sawarabi Mincho'">さわらび明朝</a></li>
+                <li><a href="javascript:void(0);" id="font03" class="selmenu" style="font-family:'Sawarabi Gothic'">さわらびゴシック</a></li>
+                <li><a href="javascript:void(0);" id="font04" class="selmenu" style="font-family:'Noto Sans JP'">Noto Sans JP</a></li>
+                <li><a href="javascript:void(0);" id="font14" class="selmenu" style="font-family:'Kosugi'">Kosugi</a></li>
+                <li><a href="javascript:void(0);" id="font10" class="selmenu" style="font-family:'Hina Mincho'">Hina Mincho</a></li>
+                <li><a href="javascript:void(0);" id="font11" class="selmenu" style="font-family:'Yuji Syuku'">Yuji Syuku</a></li>
+                <li><a href="javascript:void(0);" id="font15" class="selmenu" style="font-family:'Kaisei Decol'">Kaisei Decol</a></li>
+                <li><a href="javascript:void(0);" id="font16" class="selmenu" style="font-family:'Dela Gothic One'">Dela Gothic One</a></li>
+                <li><a href="javascript:void(0);" id="font17" class="selmenu" style="font-family:'Yusei Magic'">Yusei Magic</a></li>
+                <li><a href="javascript:void(0);" id="font18" class="selmenu" style="font-family:'Aoboshi One'">Aoboshi One</a></li>
+              </ul>
+            </li>
+<!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">tsubata.itrev.info <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://sv01.tsubata.itrev.info" id="sv01_tsubata_itrev_info" class="selmenu" target="_blank">sv01: MVP</a></li>
+                <li><a href="https://sv02.tsubata.itrev.info" id="sv02_tsubata_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv02.tsubata.itrev.info" id="sv02_tsubata_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv03.tsubata.itrev.info" id="sv03_tsubata_itrev_info" class="selmenu" target="_blank">sv03: MVP</a></li>
+                <li><a href="https://sv04.tsubata.itrev.info" id="sv04_tsubata_itrev_info" class="selmenu" target="_blank">sv04: MVP</a></li>
+                <li><a href="https://sv05.tsubata.itrev.info" id="sv05_tsubata_itrev_info" class="selmenu" target="_blank">sv05: MVP</a></li>
+                <li><a href="https://sv06.tsubata.itrev.info" id="sv06_tsubata_itrev_info" class="selmenu" target="_blank">sv06: MVP</a></li>
+                <li><a href="https://sv07.tsubata.itrev.info" id="sv07_tsubata_itrev_info" class="selmenu" target="_blank">sv07: MVP</a></li>
+                <li><a href="https://sv08.tsubata.itrev.info" id="sv08_tsubata_itrev_info" class="selmenu" target="_blank">sv08: 天気予報</a></li>
+                <li><a href="https://sv09.tsubata.itrev.info" id="sv09_tsubata_itrev_info" class="selmenu" target="_blank">sv09: jQuery Mobile</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">a.itrev.info <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://sv01.a.itrev.info" id="sv01_a_itrev_info" class="selmenu" target="_blank">sv01: MVP</a></li>
+                <li><a href="https://sv02.a.itrev.info" id="sv02_a_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv02.a.itrev.info" id="sv02_a_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv03.a.itrev.info" id="sv03_a_itrev_info" class="selmenu" target="_blank">sv03: MVP</a></li>
+                <li><a href="https://sv04.a.itrev.info" id="sv04_a_itrev_info" class="selmenu" target="_blank">sv04: MVP</a></li>
+                <li><a href="https://sv05.a.itrev.info" id="sv05_a_itrev_info" class="selmenu" target="_blank">sv05: MVP</a></li>
+                <li><a href="https://sv06.a.itrev.info" id="sv06_a_itrev_info" class="selmenu" target="_blank">sv06: MVP</a></li>
+                <li><a href="https://sv07.a.itrev.info" id="sv07_a_itrev_info" class="selmenu" target="_blank">sv07: MVP</a></li>
+                <li><a href="https://sv08.a.itrev.info" id="sv08_a_itrev_info" class="selmenu" target="_blank">sv08: 天気予報</a></li>
+                <li><a href="https://sv09.a.itrev.info" id="sv09_a_itrev_info" class="selmenu" target="_blank">sv09: MVP</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">d.itrev.info <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://sv01.d.itrev.info" id="sv01_d_itrev_info" class="selmenu" target="_blank">sv01: MVP(iframe)</a></li>
+                <li><a href="https://sv02.d.itrev.info" id="sv02_d_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv02.d.itrev.info" id="sv02_d_itrev_info" class="selmenu" target="_blank">sv02: MVP</a></li>
+                <li><a href="https://sv03.d.itrev.info" id="sv03_d_itrev_info" class="selmenu" target="_blank">sv03: MVP</a></li>
+                <li><a href="https://sv04.d.itrev.info" id="sv04_d_itrev_info" class="selmenu" target="_blank">sv04: MVP</a></li>
+                <li><a href="https://sv05.d.itrev.info" id="sv05_d_itrev_info" class="selmenu" target="_blank">sv05: MVP</a></li>
+                <li><a href="https://sv06.d.itrev.info" id="sv06_d_itrev_info" class="selmenu" target="_blank">sv06: MVP</a></li>
+                <li><a href="https://sv07.d.itrev.info" id="sv07_d_itrev_info" class="selmenu" target="_blank">sv07: MVP</a></li>
+                <li><a href="https://sv08.d.itrev.info" id="sv08_d_itrev_info" class="selmenu" target="_blank">sv08: bootstrap</a></li>
+                <li><a href="https://sv09.d.itrev.info" id="sv09_d_itrev_info" class="selmenu" target="_blank">sv09: Sakura demo</a></li>
+              </ul>
+            </li>
+//-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">URLS<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://webapp.telework.cyber.ipa.go.jp/" id="link001" class="selmenu" target="_blank">シン・テレワークシステム</a></li>
+                <li><a href="https://toolbox.googleapps.com/apps/dig/" id="link002" class="selmenu" target="_blank">Google Admin Toolbox: Dig</a></li>
+                <li><a href="https://meibido.com/" id="link003" class="selmenu" target="_blank">天気予報</a></li>
+                <li><a href="router.html" id="link004" class="selmenu" target="_blank">ルータコマンド</a></li>
+                <li><a href="https://sample00.tsubata.itrev.info/" id="link005" class="selmenu" target="_blank">サンプル集</a></li>
+                <li><a href="http://plain.tsubata.itrev.info/" id="link005" class="selmenu" target="_blank">非SSLサイトサンプル</a></li>
+              </ul>
+            </li>
+            <li><a href="">　</a></li>
+            <li><a href="">　</a></li>
+            <li><a href="">　</a></li>
+            <li><a href="">　</a></li>
+            <li><a href="ura.html">　</a></li>
+            <li><a href="">　</a></li>
+            <li><a href="">　</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div id="lit01" class="literature">
+          <h1>吾輩は猫である</h1>
+          <p><ruby><rb>吾輩</rb><rp>（</rp><rt>わがはい</rt><rp>）</rp></ruby>は猫である。名前はまだ無い。<br />どこで生れたかとんと<ruby><rb>見当</rb><rp>（</rp><rt>けんとう</rt><rp>）</rp></ruby>がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番<ruby><rb>獰悪</rb><rp>（</rp><rt>どうあく</rt><rp>）</rp></ruby>な種族であったそうだ。この書生というのは時々我々を<ruby><rb>捕</rb><rp>（</rp><rt>つかま</rt><rp>）</rp></ruby>えて<ruby><rb>煮</rb><rp>（</rp><rt>に</rt><rp>）</rp></ruby>て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の<ruby><rb>掌</rb><rp>（</rp><rt>てのひら</rt><rp>）</rp></ruby>に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの<ruby><rb>見始</rb><rp>（</rp><rt>みはじめ</rt><rp>）</rp></ruby>であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで<ruby><rb>薬缶</rb><rp>（</rp><rt>やかん</rt><rp>）</rp></ruby>だ。その<ruby><rb>後</rb><rp>（</rp><rt>ご</rt><rp>）</rp></ruby>猫にもだいぶ<ruby><rb>逢</rb><rp>（</rp><rt>あ</rt><rp>）</rp></ruby>ったがこんな<ruby><rb>片輪</rb><rp>（</rp><rt>かたわ</rt><rp>）</rp></ruby>には一度も<ruby><rb>出会</rb><rp>（</rp><rt>でく</rt><rp>）</rp></ruby>わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと<ruby><rb>煙</rb><rp>（</rp><rt>けむり</rt><rp>）</rp></ruby>を吹く。どうも<ruby><rb>咽</rb><rp>（</rp><rt>む</rt><rp>）</rp></ruby>せぽくて実に弱った。これが人間の飲む<ruby><rb>煙草</rb><rp>（</rp><rt>たばこ</rt><rp>）</rp></ruby>というものである事はようやくこの頃知った。<br /></p>
+        </div>
+
+        <div id="lit02" class="literature">
+          <h1>こころ</h1>
+            <h2>上　先生と私</h2>
+            <p><ruby><rb>私</rb><rp>（</rp><rt>わたくし</rt><rp>）</rp></ruby>はその人を常に先生と呼んでいた。だからここでもただ先生と書くだけで本名は打ち明けない。これは世間を<ruby><rb>憚</rb><rp>（</rp><rt>はば</rt><rp>）</rp></ruby>かる遠慮というよりも、その方が私にとって自然だからである。私はその人の記憶を呼び起すごとに、すぐ「先生」といいたくなる。筆を<ruby><rb>執</rb><rp>（</rp><rt>と</rt><rp>）</rp></ruby>っても心持は同じ事である。よそよそしい<ruby><rb>頭文字</rb><rp>（</rp><rt>かしらもじ</rt><rp>）</rp></ruby>などはとても使う気にならない。<br />
+　私が先生と知り合いになったのは<ruby><rb>鎌倉</rb><rp>（</rp><rt>かまくら</rt><rp>）</rp></ruby>である。その時私はまだ若々しい書生であった。暑中休暇を利用して海水浴に行った友達からぜひ来いという<ruby><rb>端書</rb><rp>（</rp><rt>はがき</rt><rp>）</rp></ruby>を受け取ったので、私は多少の金を<ruby><rb>工面</rb><rp>（</rp><rt>くめん</rt><rp>）</rp></ruby>して、出掛ける事にした。私は金の工面に<ruby><rb>二</rb><rp>（</rp><rt>に</rt><rp>）</rp></ruby>、<ruby><rb>三日</rb><rp>（</rp><rt>さんち</rt><rp>）</rp></ruby>を費やした。ところが私が鎌倉に着いて三日と<ruby><rb>経</rb><rp>（</rp><rt>た</rt><rp>）</rp></ruby>たないうちに、私を呼び寄せた友達は、急に国元から帰れという電報を受け取った。電報には母が病気だからと断ってあったけれども友達はそれを信じなかった。友達はかねてから国元にいる親たちに<ruby><rb>勧</rb><rp>（</rp><rt>すす</rt><rp>）</rp></ruby>まない結婚を<ruby><rb>強</rb><rp>（</rp><rt>し</rt><rp>）</rp></ruby>いられていた。彼は現代の習慣からいうと結婚するにはあまり年が若過ぎた。それに<ruby><rb>肝心</rb><rp>（</rp><rt>かんじん</rt><rp>）</rp></ruby>の当人が気に入らなかった。それで夏休みに当然帰るべきところを、わざと避けて東京の近くで遊んでいたのである。彼は電報を私に見せてどうしようと相談をした。私にはどうしていいか分らなかった。けれども実際彼の母が病気であるとすれば彼は<ruby><rb>固</rb><rp>（</rp><rt>もと</rt><rp>）</rp></ruby>より帰るべきはずであった。それで彼はとうとう帰る事になった。せっかく来た私は一人取り残された。<br />
+　私は毎日海へはいりに出掛けた。古い<ruby><rb>燻</rb><rp>（</rp><rt>くす</rt><rp>）</rp></ruby>ぶり返った<ruby><rb>藁葺</rb><rp>（</rp><rt>わらぶき</rt><rp>）</rp></ruby>の<ruby><rb>間</rb><rp>（</rp><rt>あいだ</rt><rp>）</rp></ruby>を通り抜けて<ruby><rb>磯</rb><rp>（</rp><rt>いそ</rt><rp>）</rp></ruby>へ下りると、この<ruby><rb>辺</rb><rp>（</rp><rt>へん</rt><rp>）</rp></ruby>にこれほどの都会人種が住んでいるかと思うほど、避暑に来た男や女で砂の上が動いていた。ある時は海の中が<ruby><rb>銭湯</rb><rp>（</rp><rt>せんとう</rt><rp>）</rp></ruby>のように黒い頭でごちゃごちゃしている事もあった。その中に知った人を一人ももたない私も、こういう<ruby><rb>賑</rb><rp>（</rp><rt>にぎ</rt><rp>）</rp></ruby>やかな景色の中に<ruby><rb>裹</rb><rp>（</rp><rt>つつ</rt><rp>）</rp></ruby>まれて、砂の上に<ruby><rb>寝</rb><rp>（</rp><rt>ね</rt><rp>）</rp></ruby>そべってみたり、<ruby><rb>膝頭</rb><rp>（</rp><rt>ひざがしら</rt><rp>）</rp></ruby>を波に打たしてそこいらを<ruby><rb>跳</rb><rp>（</rp><rt>は</rt><rp>）</rp></ruby>ね<ruby><rb>廻</rb><rp>（</rp><rt>まわ</rt><rp>）</rp></ruby>るのは愉快であった。</p>
+        </div>
+
+        <div id="lit03" class="literature">
+          <h1>高瀬舟</h1>
+          <p><ruby><rb>高瀬舟</rb><rp>（</rp><rt>たかせぶね</rt><rp>）</rp></ruby>は京都の<ruby><rb>高瀬川</rb><rp>（</rp><rt>たかせがわ</rt><rp>）</rp></ruby>を<ruby><rb>上下</rb><rp>（</rp><rt>じょうげ</rt><rp>）</rp></ruby>する小舟である。徳川時代に京都の罪人が<ruby><rb>遠島</rb><rp>（</rp><rt>えんとう</rt><rp>）</rp></ruby>を申し渡されると、本人の親類が<ruby><rb>牢屋敷</rb><rp>（</rp><rt>ろうやしき</rt><rp>）</rp></ruby>へ呼び出されて、そこで<ruby><rb>暇乞</rb><rp>（</rp><rt>いとまご</rt><rp>）</rp></ruby>いをすることを許された。それから罪人は高瀬舟に載せられて、<ruby><rb>大阪</rb><rp>（</rp><rt>おおさか</rt><rp>）</rp></ruby>へ回されることであった。それを護送するのは、京都<ruby><rb>町奉行</rb><rp>（</rp><rt>まちぶぎょう</rt><rp>）</rp></ruby>の配下にいる<ruby><rb>同心</rb><rp>（</rp><rt>どうしん</rt><rp>）</rp></ruby>で、この同心は罪人の親類の中で、おも立った一<ruby><rb>人</rb><rp>（</rp><rt>にん</rt><rp>）</rp></ruby>を大阪まで同船させることを許す慣例であった。これは<ruby><rb>上</rb><rp>（</rp><rt>かみ</rt><rp>）</rp></ruby>へ通った事ではないが、いわゆる大目に見るのであった、黙許であった。<br />
+　当時遠島を申し渡された罪人は、もちろん重い<ruby><rb>科</rb><rp>（</rp><rt>とが</rt><rp>）</rp></ruby>を犯したものと認められた人ではあるが、決して盗みをするために、人を殺し火を放ったというような、<ruby><rb>獰悪</rb><rp>（</rp><rt>どうあく</rt><rp>）</rp></ruby>な人物が多数を占めていたわけではない。高瀬舟に乗る罪人の過半は、いわゆる心得違いのために、思わぬ科を犯した人であった。有りふれた例をあげてみれば、当時<ruby><rb>相対死</rb><rp>（</rp><rt>あいたいし</rt><rp>）</rp></ruby>と言った情死をはかって、相手の女を殺して、自分だけ生き残った男というような<ruby><rb>類</rb><rp>（</rp><rt>たぐい</rt><rp>）</rp></ruby>である。<br />
+　そういう罪人を載せて、<ruby><rb>入相</rb><rp>（</rp><rt>いりあい</rt><rp>）</rp></ruby>の鐘の鳴るころにこぎ出された高瀬舟は、黒ずんだ京都の町の家々を両岸に見つつ、東へ走って、<ruby><rb>加茂川</rb><rp>（</rp><rt>かもがわ</rt><rp>）</rp></ruby>を横ぎって下るのであった。この舟の中で、罪人とその親類の者とは夜どおし身の上を語り合う。いつもいつも悔やんでも返らぬ<ruby><rb>繰</rb><rp>（</rp><rt>く</rt><rp>）</rp></ruby>り<ruby><rb>言</rb><rp>（</rp><rt>ごと</rt><rp>）</rp></ruby>である。護送の役をする<ruby><rb>同心</rb><rp>（</rp><rt>どうしん</rt><rp>）</rp></ruby>は、そばでそれを聞いて、罪人を出した<ruby><rb>親戚眷族</rb><rp>（</rp><rt>しんせきけんぞく</rt><rp>）</rp></ruby>の悲惨な境遇を細かに知ることができた。<ruby><rb>所詮</rb><rp>（</rp><rt>しょせん</rt><rp>）</rp></ruby>町奉行の<ruby><rb>白州</rb><rp>（</rp><rt>しらす</rt><rp>）</rp></ruby>で、表向きの<ruby><rb>口供</rb><rp>（</rp><rt>こうきょう</rt><rp>）</rp></ruby>を聞いたり、役所の机の上で、<ruby><rb>口書</rb><rp>（</rp><rt>くちがき</rt><rp>）</rp></ruby>を読んだりする役人の夢にもうかがうことのできぬ境遇である。<br />
+　同心を勤める人にも、いろいろの性質があるから、この時ただうるさいと思って、耳をおおいたく思う冷淡な同心があるかと思えば、またしみじみと人の哀れを身に引き受けて、役がらゆえ<ruby><rb>気色</rb><rp>（</rp><rt>けしき</rt><rp>）</rp></ruby>には見せぬながら、無言のうちにひそかに胸を痛める同心もあった。場合によって非常に悲惨な境遇に陥った罪人とその親類とを、特に心弱い、涙もろい同心が宰領してゆくことになると、その同心は不覚の涙を禁じ得ぬのであった。<br />
+　そこで高瀬舟の護送は、町奉行所の同心仲間で不快な職務としてきらわれていた。</p>
+        </div>
+
+        <div id="lit04" class="literature">
+          <h1>羅生門</h1>
+          <p>ある日の暮方の事である。一人の<ruby><rb>下人</rb><rp>（</rp><rt>げにん</rt><rp>）</rp></ruby>が、<ruby><rb>羅生門</rb><rp>（</rp><rt>らしょうもん</rt><rp>）</rp></ruby>の下で雨やみを待っていた。<br />
+　広い門の下には、この男のほかに誰もいない。ただ、所々<ruby><rb>丹塗</rb><rp>（</rp><rt>にぬり</rt><rp>）</rp></ruby>の<ruby><rb>剥</rb><rp>（</rp><rt>は</rt><rp>）</rp></ruby>げた、大きな<ruby><rb>円柱</rb><rp>（</rp><rt>まるばしら</rt><rp>）</rp></ruby>に、<ruby><rb>蟋蟀</rb><rp>（</rp><rt>きりぎりす</rt><rp>）</rp></ruby>が一匹とまっている。羅生門が、<ruby><rb>朱雀大路</rb><rp>（</rp><rt>すざくおおじ</rt><rp>）</rp></ruby>にある以上は、この男のほかにも、雨やみをする<ruby><rb>市女笠</rb><rp>（</rp><rt>いちめがさ</rt><rp>）</rp></ruby>や<ruby><rb>揉烏帽子</rb><rp>（</rp><rt>もみえぼし</rt><rp>）</rp></ruby>が、もう二三人はありそうなものである。それが、この男のほかには誰もいない。<br />
+　何故かと云うと、この二三年、京都には、地震とか<ruby><rb>辻風</rb><rp>（</rp><rt>つじかぜ</rt><rp>）</rp></ruby>とか火事とか饑饉とか云う<ruby><rb>災</rb><rp>（</rp><rt>わざわい</rt><rp>）</rp></ruby>がつづいて起った。そこで<ruby><rb>洛中</rb><rp>（</rp><rt>らくちゅう</rt><rp>）</rp></ruby>のさびれ方は一通りではない。旧記によると、仏像や仏具を打砕いて、その<ruby><rb>丹</rb><rp>（</rp><rt>に</rt><rp>）</rp></ruby>がついたり、金銀の<ruby><rb>箔</rb><rp>（</rp><rt>はく</rt><rp>）</rp></ruby>がついたりした木を、路ばたにつみ重ねて、<ruby><rb>薪</rb><rp>（</rp><rt>たきぎ</rt><rp>）</rp></ruby>の<ruby><rb>料</rb><rp>（</rp><rt>しろ</rt><rp>）</rp></ruby>に売っていたと云う事である。洛中がその始末であるから、羅生門の修理などは、元より誰も捨てて顧る者がなかった。するとその荒れ果てたのをよい事にして、<ruby><rb>狐狸</rb><rp>（</rp><rt>こり</rt><rp>）</rp></ruby>が<ruby><rb>棲</rb><rp>（</rp><rt>す</rt><rp>）</rp></ruby>む。<ruby><rb>盗人</rb><rp>（</rp><rt>ぬすびと</rt><rp>）</rp></ruby>が棲む。とうとうしまいには、引取り手のない死人を、この門へ持って来て、棄てて行くと云う習慣さえ出来た。そこで、日の目が見えなくなると、誰でも気味を悪るがって、この門の近所へは足ぶみをしない事になってしまったのである。<br />
+　その代りまた<ruby><rb>鴉</rb><rp>（</rp><rt>からす</rt><rp>）</rp></ruby>がどこからか、たくさん集って来た。昼間見ると、その鴉が何羽となく輪を描いて、高い<ruby><rb>鴟尾</rb><rp>（</rp><rt>しび</rt><rp>）</rp></ruby>のまわりを啼きながら、飛びまわっている。ことに門の上の空が、夕焼けであかくなる時には、それが<ruby><rb>胡麻</rb><rp>（</rp><rt>ごま</rt><rp>）</rp></ruby>をまいたようにはっきり見えた。鴉は、勿論、門の上にある死人の肉を、<ruby><rb>啄</rb><rp>（</rp><rt>ついば</rt><rp>）</rp></ruby>みに来るのである。――もっとも今日は、<ruby><rb>刻限</rb><rp>（</rp><rt>こくげん</rt><rp>）</rp></ruby>が遅いせいか、一羽も見えない。ただ、所々、崩れかかった、そうしてその崩れ目に長い草のはえた石段の上に、鴉の<ruby><rb>糞</rb><rp>（</rp><rt>ふん</rt><rp>）</rp></ruby>が、点々と白くこびりついているのが見える。下人は七段ある石段の一番上の段に、洗いざらした紺の<ruby><rb>襖</rb><rp>（</rp><rt>あお</rt><rp>）</rp></ruby>の尻を据えて、右の頬に出来た、大きな<ruby><rb>面皰</rb><rp>（</rp><rt>にきび</rt><rp>）</rp></ruby>を気にしながら、ぼんやり、雨のふるのを眺めていた。</p>
+        </div>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+      $('#font_name').text('全丸ゴシック');
+
+      $(".selmenu").on("click", function() {
+        const id_src = $(this).attr("id");
+        if ( id_src.indexOf('link') != -1 ) {
+          const id = $(this).attr("id").replace("link","lit");
+          //console.log(id);
+          $(".literature").css({"display":"none"});
+          $("#"+id).css({"display":"block"});
+        }
+        else if ( id_src.indexOf('font') != -1 ) {
+          const id = $(this).attr("id").replace("font","");
+          //console.log(id);
+          switch(id) {
+            case "01": FontFamily = "Zen Maru Gothic";  break;
+            case "02": FontFamily = "Sawarabi Mincho";  break;
+            case "03": FontFamily = "Sawarabi Gothic";  break;
+            case "04": FontFamily = "Noto Sans JP";     break;
+            case "09": FontFamily = "Klee One";         break;
+            case "10": FontFamily = "Hina Mincho";      break;
+            case "11": FontFamily = "Yuji Syuku";       break;
+            case "12": FontFamily = "Kaisei Opti";      break;
+            case "13": FontFamily = "Reggae One";       break;
+            case "14": FontFamily = "Kosugi";           break;
+            case "15": FontFamily = "Kaisei Decol";     break;
+            case "16": FontFamily = "Dela Gothic One";  break;
+            case "17": FontFamily = "Yusei Magic";      break;
+            case "18": FontFamily = "Aoboshi One";      break;
+            case "99": location.href = "index.html";    break;
+            default: FontFamily = "Zen Maru Gothic";    break;
+          }
+          $("h1").css("font-family",FontFamily);
+          $("h2").css("font-family",FontFamily);
+          $("p").css("font-family",FontFamily);
+          $("rb").css("font-family",FontFamily);
+          $("rp").css("font-family",FontFamily);
+          $(".dai").css("font-family",FontFamily);
+          $('#font_name').text($(this).text());
+        }
+      });
+    });
+    </script>
+  </body>
+</html>
